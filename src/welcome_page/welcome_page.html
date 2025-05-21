@@ -1,38 +1,48 @@
 <!doctype html>
 
-<html>
+<html lang = 'en'>
+    <link rel = "stylesheet" href = "welcome_page.css">
+
     <head>
         <meta charset="utf-8">
         <title>PortfolioWelcomePage</title>
+
+        <!---external fonts i wanted to use--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+
     </head>
 
     <body>
 
+        <div id="roni_pic">
+            <!--Not sure how to name as the alt yet, this picture is me as a blob-->
+            <img id = 'roni_blob' src = 'mpRoniBlob.png' width = '500' height = '500'
+            alt = 'This picture shows Veronica as Blob Character'>
+        </div>
+
+
         <!---username/my name--->
-        <h1>Veronica Nartatez</h1>
+        <div id="roni_name">
+            <p>VERONICA NARTATEZ</p>
+        </div>
 
-        <!---level and how much xp--->
-        <h3>
-            Lvl 22 22/100xp
-        </h3> 
 
-        <!---character traits--->
-        <h4>
-            Character Traits:
-            Imposter Syndrome
-            Average Tabs Open
-            Reliance on Dark Mode
-            Reliance on StackOverflow
-        </h4>
+        <!---small title--->
+        <div id="roni_title">
+            <p>3rd Year Computer Science Student</p>
+        </div>
 
+        
         <!---character bio--->
-        <p>
-            Veronica is a fourth year Computer Science student, currently training in UI/UX design of the course 
-            <a href = 'https://catalogue.uottawa.ca/en/courses/seg/'>SEG3125</a>. Armed with curiosity and creativity, she ventures intot the world of pixel
-        </p>
+        <div id="roni_bio"> 
+            <p>
+                Veronica is a fourth year Computer Science student, currently training in UI/UX design of the course 
+                <a href = 'https://catalogue.uottawa.ca/en/courses/seg/'>SEG3125</a>. Armed with curiosity and creativity, she ventures intot the world of pixel
+            </p>
+        </div>
 
-        <!--Not sure how to name as the alt yet, this picture is me as a blob-->
-        <img src = 'mpRoniBlob.png' width = '500' height = '500'
-			 alt = 'This picture shows Veronica as Blob Character'>
     </body>
 </html>

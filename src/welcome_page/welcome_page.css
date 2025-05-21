@@ -1,0 +1,41 @@
+body {
+    background-color: #d6e8b5;
+  }
+
+  /* blob picture */
+#roni_pic {
+    text-align: center;
+}
+
+#roni_blob {
+    display: inline-block;
+}
+
+/* Veronica Nartatez */
+#roni_name {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+/* 3rd Year Computer Science Student*/
+#roni_title {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+}
+
+/* character bio*/
+#roni_bio {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-small;
+    text-align: center;
+    color: grey;
+}
+
