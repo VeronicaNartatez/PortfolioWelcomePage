@@ -4,7 +4,7 @@ body {
 
   /* blob picture */
 #roni_pic {
-    text-align: center;
+    text-align: right;
 }
 
 #roni_blob {
@@ -17,7 +17,7 @@ body {
     font-weight: 800;
     font-style: normal;
     font-size: xx-large;
-    text-align: center;
+    text-align: right;
   }
 
 /* 3rd Year Computer Science Student*/
@@ -26,7 +26,7 @@ body {
     font-weight: 800;
     font-style: normal;
     font-size: large;
-    text-align: center;
+    text-align: right;
 }
 
 /* character bio*/
@@ -37,5 +37,13 @@ body {
     font-size: x-small;
     text-align: center;
     color: grey;
+}
+
+#work_text {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
 }
 
