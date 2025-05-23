@@ -1,14 +1,59 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body {
-    background-color: #d6e8b5;
+    background-color: #f1f1e4;
+  }
+
+/* navigation bar */
+.navbar {
+    background-color: #8a9b46;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* home button in navbar */
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* other buttons in navbar */
+.navbar a.nav_hyper {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #4e5826;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #4e5826;
+    color: white;
   }
 
   /* blob picture */
-#roni_pic {
-    text-align: right;
-}
-
-#roni_blob {
-    display: inline-block;
+#blob_container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Veronica Nartatez */

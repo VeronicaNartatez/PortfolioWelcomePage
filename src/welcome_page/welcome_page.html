@@ -1,21 +1,34 @@
 <!doctype html>
 
 <html lang = 'en'>
-    <link rel = "stylesheet" href = "welcome_page.css">
-
     <head>
         <meta charset="utf-8">
         <title>PortfolioWelcomePage</title>
+
+        <link rel = "stylesheet" href = "welcome_page.css">
 
         <!---external fonts i wanted to use--->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
-
+        
 
     </head>
 
     <body>
+
+        <!---navigation bar--->
+        <nav class="navbar">
+
+                <!---temp hyperlinks--->
+                <!---add home icon--->
+                <a class="active" href="#home">Home</a>
+                <a class = 'nav_hyper' href="#news">About Me</a>
+                <a class = 'nav_hyper' href="#contact">Projects</a>
+                <a class = 'nav_hyper' href="#about">Contact Me</a>
+              
+        </nav>
+
 
         <!---username/my name--->
         <div id="roni_name">
@@ -28,19 +41,27 @@
             <p>3rd Year Computer Science Student</p>
         </div>
 
+
         <!---Text, work ive done--->
-        <div id="work_text">
-            <p>Worked I've Done:</p>
-        </div>
+        <article>
+            <div id="work_text">
+                <p>Worked I've Done:</p>
+            </div>
+
+            <section> 
+                
+            </section>
+
+
+        </article>
 
 
         <!---blob pic--->
-        <div id="roni_pic">
-            <!--Not sure how to name as the alt yet, this picture is me as a blob-->
-
-            <img id = 'roni_blob' src = '../../public/mpRoniBlob.png' width = '500' height = '500'
+        <div id = 'blob_container'>
+            <img src = '../../public/mpRoniBlob.png' width = '500' height = '500'
             alt = 'This picture shows Veronica as Blob Character'>
         </div>
+
         
         <!---character bio, maybe put this on the about me page?--->
         <div id="roni_bio"> 
