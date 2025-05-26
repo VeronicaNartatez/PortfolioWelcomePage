@@ -1,0 +1,177 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1e4;
+  }
+  
+  /* navigation bar */
+  .navbar_ab {
+    background-color: #8a9b46;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* home button in navbar */
+  .navbar_ab a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* other buttons in navbar */
+  .navbar_ab a.nav_hyper {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar_ab a:hover {
+    background-color: #4e5826;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar_ab a.active {
+    background-color: #4e5826;
+    color: white;
+  }
+  
+  /* blob picture */
+  #blob_section {
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  /* Veronica Nartatez */
+  #roni_name {
+    display: inline-block;
+    background-color: #c8d29d;
+    color: grey;
+    padding: 6px 12px;
+  
+    border: 2px solid #8a9b46;
+    border-radius: 8px;
+  
+    margin: 20px auto 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  
+    font-family: 'Silkscreen',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  #roni_title {
+    display: inline-block;
+    background-color: hsl(71, 37%, 72%);
+    color: grey;
+    padding: 6px 12px;
+  
+    border: 2px solid #8a9b46;
+    border-radius: 8px;
+  
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  
+    font-family: 'Silkscreen',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    text-align: center;
+  }
+  
+  #blob_container {
+    margin-top: 0;
+    gap: 4px;
+  }
+  
+  .icon-lg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  #current-projects {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-family:'Silkscreen',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+
+    display: inline-block;
+    background-color: #c8d29d;
+    color: black;
+    padding: 6px 12px;
+  
+    border: 2px solid #8a9b46;
+    border-radius: 8px;
+  
+    margin: 20px auto 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    align-items: stretch;
+  }
+  
+  .project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    max-width: 1000px;
+  }
+  
+  .card {
+    width: 200px;
+    height: auto;
+    background-color: #8a9b46;
+    flex-grow: 0;
+    flex-shrink: 0; 
+    padding: 10px;
+  }
+
+  .btn-primary {
+    --bs-btn-color: black;
+    --bs-btn-bg: pink;
+    --bs-btn-border-color: pink;
+    --bs-btn-hover-color: black ;
+    --bs-btn-hover-bg: rgb(221, 137, 151);
+    --bs-btn-hover-border-color: rgb(221, 137, 151);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: pink;
+    --bs-btn-active-border-color: pink;
+    --bs-btn-active-shadow: inset 0 3px 5px
+  }

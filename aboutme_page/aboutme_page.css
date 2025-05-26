@@ -113,17 +113,40 @@ body {
 }
 
 
-
-.main-content {
+.main-content{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
 }
 
-.blob-info {
+.blob-info{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
 }
+
+.character-stats{
+  margin: 20px auto 10px;
+}
+
+.custom-card{
+  background-color: #8a9b46;
+  color: black;
+  border: 2px solid #8a9b46;
+  font-family: 'SilkScreen',sans-serif;
+  justify-content: center;
+}
+
+.progress-bar{
+  background-color: #FFC0CB;
+  color: grey;
+}
+
+.card-header{
+  font-size: x-large;
+}
+
+
+

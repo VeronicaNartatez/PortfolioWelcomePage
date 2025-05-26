@@ -65,7 +65,7 @@
   #roni_name {
     display: inline-block;
     background-color: #c8d29d;
-    color: grey;
+    color: black;
     padding: 6px 12px;
   
     border: 2px solid #8a9b46;
@@ -86,7 +86,7 @@
     display: inline-block;
     background-color: hsl(71, 37%, 72%);
     color: grey;
-    padding: 6px 12px;
+    padding: 6px 1.2px;
   
     border: 2px solid #8a9b46;
     border-radius: 8px;
@@ -112,39 +112,50 @@
     height: 30px;
   }
   
-  
   #current-projects {
-
-    margin-top: 10px;
-    margin-bottom: 30px;
-
     font-family:sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: x-large;
-    text-align: center;
+    text-align: left;
   }
   
-  .projects {
+  .main-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
-    align-items: stretch;
   }
   
   .project-grid{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; 
-    max-width: 1000px;
+    width: 100%;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: stretch;
+  }
+  
+  .projects{
+    flex: 1 1 0;
   }
   
   .card {
+    display: flex;
     width: 200px;
     height: auto;
-    background-color: #8a9b46;
-    flex-grow: 0;
-    flex-shrink: 0; 
+    background-color: #8a9b46; 
+    padding: 10px;
   }
+  
+  
+  .blob-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    align-items: center;
+    flex: 1 1 0;
+  }
+  
+  
