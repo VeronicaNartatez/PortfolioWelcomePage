@@ -28,27 +28,7 @@ body {
   font-size: 17px;
 }
 
-/* other buttons in navbar */
-.navbar_ab a.nav_hyper {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-/* Change the color of links on hover */
-.navbar_ab a:hover {
-  background-color: #4e5826;
-  color: white;
-}
-
-/* Add a color to the active/current link */
-.navbar_ab a.active {
-  background-color: #4e5826;
-  color: white;
-}
 
 /* blob picture */
 #blob_section {
