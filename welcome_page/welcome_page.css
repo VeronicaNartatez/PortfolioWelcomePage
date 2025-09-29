@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+/* dark mode toggle properties */
+.form-check-input:checked {
+  background-color: #3f5277;
+  border-color: #3f5277;
+}
+
 body {
   background-color: #f1f1e4;
 }
@@ -178,9 +184,32 @@ body {
   box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 
-/* dark mode toggle properties */
-.form-check-input:checked {
-  background-color: #3f5277;
-  border-color: #0d6efd;
+#bootstrap-overrides{
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
+
+.form-check-input {
+  --bs-form-check-bg: var(--bs-body-bg);
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  margin-top: .25em;
+  vertical-align: top;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-form-check-bg);
+  background-image: var(--bs-form-check-bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+
 
